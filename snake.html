@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>GAME DESIGN PROJECT</title>
+  <!-- CSS-LESS INCLUSION DON'T TOUCH-->
+  <link rel="stylesheet/less" type="text/css" href="style.less" />
+  <link rel="stylesheet/less" type="text/css" href="global-style.less" />
+  <link rel="icon" href="assets/image/logo.png">
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+  <!---->
+  <!-- INCLUDE JAVASCRIPT P5 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+  <!---->
+  <!-- SNAKE FILE -->
+  <script src="app/snakeGame/snake.js"></script>
+  <script src="app/snakeGame/snakeClass.js"></script>
+  <!---->
+  <script type="text/javascript" src="app/baseScript.js"></script>
+</head>
+<body>
+
+  <div class="header">
+    <h1>GAME SHARE</h1>
+  </div>
+
+  <div class="main-content">
+    <div class="left-button-container">
+      <span class="game-button" onclick="change(0)">PONG </span><br>
+    </div>
+
+    <div id="canvas-container">
+
+    </div>
+
+    <div class="right-button-container">
+      <span class="game-button">SNAKE </span>
+
+    </div>
+  </div>
+
+</body>
+</html>

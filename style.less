@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url("assets/background.png");
+  font-family: retrogaming;
+  font-size: 30pt ;
+
+  .header{
+    color: white;
+    text-align: center;
+    text-shadow: -7px 0px 1px #B7B7B7;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+
+    .game-button {
+      width: 260px;
+      text-align: center;
+      display: inline-block;
+      margin: 5px;
+      margin-bottom: 30px;
+      font-weight: bold;
+      padding: 10px 0 10px 10px;
+      background-color: lightgray;
+      text-shadow: -1px -1px black, 1px 1px white;
+      color: gray;
+      -webkit-border-radius: 7px;
+      -moz-border-radius: 7px;
+      -o-border-radius: 7px;
+      border-radius: 7px;
+      box-shadow: 0 .2em gray;
+      cursor: pointer;
+    }
+
+    .game-button:active {
+      box-shadow: none;
+      position: relative;
+      top: .2em;
+    }
+
+    canvas {
+      border: 1px solid #d3d3d3;
+      background-color: #f1f1f1;
+    }
+  }
+}
