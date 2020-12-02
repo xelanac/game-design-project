@@ -6,3 +6,4 @@ We used the P5 (https://p5js.org/) library, which is really helpfull for games, 
 * setup()
 * draw()
 
+You can play at this link: https://xelanac.github.io/game-design-project/snake.html
